@@ -1,0 +1,8 @@
+<p-pickList sourceHeader="Source List" targetHeader="Target List" dragdrop="true" [source]="list1" [target]="list2" [responsive]="true">
+    <ng-template let-list pTemplate="item">
+        <div class="ui-helper-clearfix">
+            
+            <div style="font-size:14px;float:right;margin:15px 5px 0 0">{{list}}</div>
+        </div>
+    </ng-template>
+</p-pickList>
